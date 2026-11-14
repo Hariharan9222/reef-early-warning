@@ -1,0 +1,100 @@
+{
+  "name": "CoralGuard Deep Ocean & Thermal Early Warning Theme",
+  "dataColors": [
+    "#0E7490",
+    "#0284C7",
+    "#10B981",
+    "#EAB308",
+    "#F97316",
+    "#EF4444",
+    "#38BDF8",
+    "#6366F1",
+    "#0D9488",
+    "#64748B"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#0F172A",
+  "tableAccent": "#0E7490",
+  "good": "#10B981",
+  "neutral": "#EAB308",
+  "bad": "#EF4444",
+  "maximum": "#EF4444",
+  "center": "#F97316",
+  "minimum": "#10B981",
+  "null": "#CBD5E1",
+  "textClasses": {
+    "callout": {
+      "fontSize": 24,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0F172A"
+    },
+    "title": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#0E7490"
+    },
+    "header": {
+      "fontSize": 12,
+      "fontFace": "Segoe UI",
+      "color": "#334155"
+    },
+    "label": {
+      "fontSize": 10,
+      "fontFace": "Segoe UI",
+      "color": "#64748B"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "outspacePane": [
+          {
+            "backgroundColor": { "solid": { "color": "#F8FAFC" } }
+          }
+        ],
+        "general": [
+          {
+            "responsive": true
+          }
+        ]
+      }
+    },
+    "page": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#F8FAFC" } },
+            "transparency": 0
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "card": [
+          {
+            "outline": "None",
+            "border": true,
+            "borderColor": { "solid": { "color": "#E2E8F0" } },
+            "backgroundColor": { "solid": { "color": "#FFFFFF" } }
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Segoe UI Semibold",
+            "fontSize": 22,
+            "color": { "solid": { "color": "#0F172A" } }
+          }
+        ],
+        "categoryLabels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 10,
+            "color": { "solid": { "color": "#64748B" } }
+          }
+        ]
+      }
+    }
+  }
+}
+

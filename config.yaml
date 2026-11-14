@@ -1,0 +1,103 @@
+seed: 42
+
+paths:
+  raw_dir: "data/raw"
+  processed_dir: "data/processed"
+  models_dir: "models"
+  reports_dir: "reports"
+  notebooks_dir: "notebooks"
+
+regions:
+  great_barrier_reef:
+    name: "Great Barrier Reef"
+    lat_min: -24.0
+    lat_max: -10.0
+    lon_min: 142.0
+    lon_max: 154.0
+    grid_res: 0.25
+  caribbean:
+    name: "Caribbean"
+    lat_min: 10.0
+    lat_max: 26.0
+    lon_min: -88.0
+    lon_max: -60.0
+    grid_res: 0.25
+  coral_triangle:
+    name: "Coral Triangle"
+    lat_min: -10.0
+    lat_max: 10.0
+    lon_min: 115.0
+    lon_max: 135.0
+    grid_res: 0.25
+
+dates:
+  start_year: 2015
+  end_year: 2024
+  train_end_year: 2021
+  val_year: 2022
+  test_start_year: 2023
+  test_end_year: 2024
+
+sst:
+  erddap_base_url: "https://coastwatch.pfeg.noaa.gov/erddap/griddap/NOAA_DHW.csv"
+  fallback_synthetic: true
+  mmm_climatology_offset: 1.0  # Bleaching threshold = MMM + 1 deg C
+
+acoustics:
+  sample_rate: 22050
+  n_fft: 1024
+  hop_length: 512
+  n_mels: 64
+  clip_duration_sec: 5.0
+  snapping_shrimp_band: [2000, 20000]
+  fish_chorus_band: [50, 1000]
+  fallback_synthetic: true
+  num_clips_per_site: 6
+
+citizen:
+  search_radius_km: 50.0
+  window_days: 30
+  fallback_synthetic: true
+
+data_alignment:
+  time_freq: "W-MON"
+  lead_times: [14, 28]  # days ahead to predict bleaching severity
+  grid_resolution: 0.25
+  split_type: "time"  # train <= 2021, val == 2022, test >= 2023
+
+modeling:
+  num_classes: 3  # 0: None, 1: Mild, 2: Severe
+  class_weights: "balanced"
+  xgboost:
+    n_estimators: 150
+    max_depth: 5
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    objective: "multi:softprob"
+    random_state: 42
+  lightgbm:
+    n_estimators: 150
+    max_depth: 5
+    learning_rate: 0.05
+    subsample: 0.8
+    colsample_bytree: 0.8
+    objective: "multiclass"
+    random_state: 42
+  neural_network:
+    batch_size: 64
+    epochs: 25
+    learning_rate: 0.001
+    weight_decay: 1e-4
+    focal_loss_gamma: 2.0
+    embedding_dim: 32
+    hidden_dim: 64
+  optuna:
+    n_trials: 15
+    timeout: 180
+
+early_warning:
+  watch_threshold: 0.25
+  warning_threshold: 0.50
+  alert_threshold: 0.75
+

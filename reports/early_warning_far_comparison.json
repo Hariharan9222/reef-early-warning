@@ -1,0 +1,14 @@
+{
+  "lead_time": "14 days",
+  "noaa_dhw_baseline": {
+    "false_alarm_rate": 0.0557,
+    "severe_recall": 0.8749,
+    "precision": 0.8788
+  },
+  "multimodal_early_warning": {
+    "false_alarm_rate": 0.0515,
+    "severe_recall": 0.9866,
+    "precision": 0.8983,
+    "far_reduction_percentage": 7.54
+  }
+}

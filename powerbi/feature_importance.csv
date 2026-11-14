@@ -1,0 +1,68 @@
+model_name,feature,shap_importance,modality
+XGBoost Multimodal (t+14d),dhw,0.15483,Satellite SST
+XGBoost Multimodal (t+14d),ssta_roll_30d,0.06764,Satellite SST
+XGBoost Multimodal (t+14d),sst_max_30d,0.05947,Satellite SST
+XGBoost Multimodal (t+14d),ssta_roll_14d,0.04374,Satellite SST
+XGBoost Multimodal (t+14d),days_above_threshold_90d,0.04051,Satellite SST
+XGBoost Multimodal (t+14d),mfcc_mean_0,0.03918,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_10,0.03915,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_9,0.03704,Underwater Acoustics
+XGBoost Multimodal (t+14d),sst,0.02793,Satellite SST
+XGBoost Multimodal (t+14d),mfcc_std_12,0.02621,Underwater Acoustics
+XGBoost Multimodal (t+14d),ssta,0.02376,Satellite SST
+XGBoost Multimodal (t+14d),mfcc_mean_12,0.0228,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_4,0.0198,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_9,0.01836,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_6,0.01818,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_7,0.01777,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_8,0.01725,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_9,0.01707,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_1,0.01606,Underwater Acoustics
+XGBoost Multimodal (t+14d),ssta_roll_7d,0.01367,Satellite SST
+XGBoost Multimodal (t+14d),aci,0.0129,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_0,0.01271,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_5,0.01241,Underwater Acoustics
+XGBoost Multimodal (t+14d),diver_weighted_severity_30d,0.01178,Citizen Diver Science
+XGBoost Multimodal (t+14d),mfcc_std_6,0.01165,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_0,0.01114,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_12,0.01108,Underwater Acoustics
+XGBoost Multimodal (t+14d),adi,0.01104,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_15,0.00997,Underwater Acoustics
+XGBoost Multimodal (t+14d),diver_mean_confidence_30d,0.00988,Citizen Diver Science
+XGBoost Multimodal (t+14d),spectral_centroid_mean,0.00981,Underwater Acoustics
+XGBoost Multimodal (t+14d),fish_chorus_energy_ratio,0.00913,Underwater Acoustics
+XGBoost Multimodal (t+14d),diver_report_density,0.00912,Citizen Diver Science
+XGBoost Multimodal (t+14d),mfcc_std_11,0.00912,Underwater Acoustics
+XGBoost Multimodal (t+14d),diver_has_reports,0.00781,Citizen Diver Science
+XGBoost Multimodal (t+14d),mfcc_mean_2,0.00704,Underwater Acoustics
+XGBoost Multimodal (t+14d),sst_rate_of_change_7d,0.00665,Satellite SST
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_4,0.00656,Underwater Acoustics
+XGBoost Multimodal (t+14d),diver_reports_count_50km_30d,0.00647,Citizen Diver Science
+XGBoost Multimodal (t+14d),mfcc_mean_3,0.00632,Underwater Acoustics
+XGBoost Multimodal (t+14d),ndsi,0.00559,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_5,0.00557,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_1,0.0051,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_10,0.00479,Underwater Acoustics
+XGBoost Multimodal (t+14d),bioacoustic_index,0.00466,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_8,0.00449,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_5,0.00449,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_4,0.00447,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_8,0.00444,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_mean_11,0.00434,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_1,0.00434,Underwater Acoustics
+XGBoost Multimodal (t+14d),diver_spatial_neighbor_severity_knn,0.00427,Citizen Diver Science
+XGBoost Multimodal (t+14d),mfcc_mean_7,0.00425,Underwater Acoustics
+XGBoost Multimodal (t+14d),shrimp_band_energy_ratio,0.00423,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_6,0.00414,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_7,0.00363,Underwater Acoustics
+XGBoost Multimodal (t+14d),spectral_centroid_std,0.00354,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_2,0.00301,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_2,0.00259,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_10,0.00258,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_13,0.00156,Underwater Acoustics
+XGBoost Multimodal (t+14d),mfcc_std_3,0.00093,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_3,0.0,Underwater Acoustics
+XGBoost Multimodal (t+14d),days_above_threshold_30d,0.0,Satellite SST
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_11,0.0,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_cnn_emb_14,0.0,Underwater Acoustics
+XGBoost Multimodal (t+14d),acoustic_is_missing,0.0,Underwater Acoustics

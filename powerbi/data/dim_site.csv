@@ -1,0 +1,28 @@
+site_id,site_name,region,country,latitude,longitude,reef_type
+caribbean_10.00_-60.00,"Caribbean Monitoring Station (+10.00°, -60.00°)",Caribbean,Puerto Rico / USVI,10.0,-60.0,Barrier & Fringing Reef
+caribbean_10.00_-74.00,"Caribbean Monitoring Station (+10.00°, -74.00°)",Caribbean,Belize,10.0,-74.0,Barrier & Fringing Reef
+caribbean_10.00_-88.00,"Caribbean Monitoring Station (+10.00°, -88.00°)",Caribbean,Belize,10.0,-88.0,Barrier & Fringing Reef
+caribbean_18.00_-60.00,"Caribbean Monitoring Station (+18.00°, -60.00°)",Caribbean,Puerto Rico / USVI,18.0,-60.0,Barrier & Fringing Reef
+caribbean_18.00_-74.00,"Caribbean Monitoring Station (+18.00°, -74.00°)",Caribbean,Belize,18.0,-74.0,Barrier & Fringing Reef
+caribbean_18.00_-88.00,"Caribbean Monitoring Station (+18.00°, -88.00°)",Caribbean,Belize,18.0,-88.0,Barrier & Fringing Reef
+caribbean_26.00_-60.00,"Caribbean Monitoring Station (+26.00°, -60.00°)",Caribbean,Puerto Rico / USVI,26.0,-60.0,Barrier & Fringing Reef
+caribbean_26.00_-74.00,"Caribbean Monitoring Station (+26.00°, -74.00°)",Caribbean,Belize,26.0,-74.0,Barrier & Fringing Reef
+caribbean_26.00_-88.00,"Caribbean Monitoring Station (+26.00°, -88.00°)",Caribbean,Belize,26.0,-88.0,Barrier & Fringing Reef
+coral_triangle_-10.00_115.00,"Coral Triangle Monitoring Station (-10.00°, +115.00°)",Coral Triangle,Indonesia,-10.0,115.0,Coral Atoll & Complex
+coral_triangle_-10.00_125.00,"Coral Triangle Monitoring Station (-10.00°, +125.00°)",Coral Triangle,Indonesia,-10.0,125.0,Coral Atoll & Complex
+coral_triangle_-10.00_135.00,"Coral Triangle Monitoring Station (-10.00°, +135.00°)",Coral Triangle,Philippines,-10.0,135.0,Coral Atoll & Complex
+coral_triangle_0.00_115.00,"Coral Triangle Monitoring Station (+0.00°, +115.00°)",Coral Triangle,Indonesia,0.0,115.0,Coral Atoll & Complex
+coral_triangle_0.00_125.00,"Coral Triangle Monitoring Station (+0.00°, +125.00°)",Coral Triangle,Indonesia,0.0,125.0,Coral Atoll & Complex
+coral_triangle_0.00_135.00,"Coral Triangle Monitoring Station (+0.00°, +135.00°)",Coral Triangle,Philippines,0.0,135.0,Coral Atoll & Complex
+coral_triangle_10.00_115.00,"Coral Triangle Monitoring Station (+10.00°, +115.00°)",Coral Triangle,Indonesia,10.0,115.0,Coral Atoll & Complex
+coral_triangle_10.00_125.00,"Coral Triangle Monitoring Station (+10.00°, +125.00°)",Coral Triangle,Indonesia,10.0,125.0,Coral Atoll & Complex
+coral_triangle_10.00_135.00,"Coral Triangle Monitoring Station (+10.00°, +135.00°)",Coral Triangle,Philippines,10.0,135.0,Coral Atoll & Complex
+great_barrier_reef_-10.00_142.00,"Great Barrier Reef Monitoring Station (-10.00°, +142.00°)",Great Barrier Reef,Australia,-10.0,142.0,Barrier Reef
+great_barrier_reef_-10.00_148.00,"Great Barrier Reef Monitoring Station (-10.00°, +148.00°)",Great Barrier Reef,Australia,-10.0,148.0,Barrier Reef
+great_barrier_reef_-10.00_154.00,"Great Barrier Reef Monitoring Station (-10.00°, +154.00°)",Great Barrier Reef,Australia,-10.0,154.0,Barrier Reef
+great_barrier_reef_-17.00_142.00,"Great Barrier Reef Monitoring Station (-17.00°, +142.00°)",Great Barrier Reef,Australia,-17.0,142.0,Barrier Reef
+great_barrier_reef_-17.00_148.00,"Great Barrier Reef Monitoring Station (-17.00°, +148.00°)",Great Barrier Reef,Australia,-17.0,148.0,Barrier Reef
+great_barrier_reef_-17.00_154.00,"Great Barrier Reef Monitoring Station (-17.00°, +154.00°)",Great Barrier Reef,Australia,-17.0,154.0,Barrier Reef
+great_barrier_reef_-24.00_142.00,"Great Barrier Reef Monitoring Station (-24.00°, +142.00°)",Great Barrier Reef,Australia,-24.0,142.0,Barrier Reef
+great_barrier_reef_-24.00_148.00,"Great Barrier Reef Monitoring Station (-24.00°, +148.00°)",Great Barrier Reef,Australia,-24.0,148.0,Barrier Reef
+great_barrier_reef_-24.00_154.00,"Great Barrier Reef Monitoring Station (-24.00°, +154.00°)",Great Barrier Reef,Australia,-24.0,154.0,Barrier Reef

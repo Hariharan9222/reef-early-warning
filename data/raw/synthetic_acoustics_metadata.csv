@@ -1,0 +1,181 @@
+clip_id,file_path,site_id,region,lat,lon,date,status,label,shrimp_activity_rate,fish_chorus_amp
+CLIP_00001,data/raw/audio/clip_00001_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2015-03-15,healthy,0,180,0.5
+CLIP_00002,data/raw/audio/clip_00002_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2015-09-15,healthy,0,180,0.5
+CLIP_00003,data/raw/audio/clip_00003_severe_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2016-03-15,severe_bleach,2,20,0.05
+CLIP_00004,data/raw/audio/clip_00004_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2016-09-15,healthy,0,180,0.5
+CLIP_00005,data/raw/audio/clip_00005_mild_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00006,data/raw/audio/clip_00006_mild_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00007,data/raw/audio/clip_00007_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2018-03-15,healthy,0,180,0.5
+CLIP_00008,data/raw/audio/clip_00008_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2018-09-15,healthy,0,180,0.5
+CLIP_00009,data/raw/audio/clip_00009_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2019-03-15,healthy,0,180,0.5
+CLIP_00010,data/raw/audio/clip_00010_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2019-09-15,healthy,0,180,0.5
+CLIP_00011,data/raw/audio/clip_00011_severe_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2020-03-15,severe_bleach,2,20,0.05
+CLIP_00012,data/raw/audio/clip_00012_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2020-09-15,healthy,0,180,0.5
+CLIP_00013,data/raw/audio/clip_00013_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2021-03-15,healthy,0,180,0.5
+CLIP_00014,data/raw/audio/clip_00014_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2021-09-15,healthy,0,180,0.5
+CLIP_00015,data/raw/audio/clip_00015_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2022-03-15,healthy,0,180,0.5
+CLIP_00016,data/raw/audio/clip_00016_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2022-09-15,healthy,0,180,0.5
+CLIP_00017,data/raw/audio/clip_00017_mild_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00018,data/raw/audio/clip_00018_mild_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00019,data/raw/audio/clip_00019_severe_bleach.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2024-03-15,severe_bleach,2,20,0.05
+CLIP_00020,data/raw/audio/clip_00020_healthy.wav,great_barrier_reef_-24.00_142.00,Great Barrier Reef,-24.0,142.0,2024-09-15,healthy,0,180,0.5
+CLIP_00021,data/raw/audio/clip_00021_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2015-03-15,healthy,0,180,0.5
+CLIP_00022,data/raw/audio/clip_00022_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2015-09-15,healthy,0,180,0.5
+CLIP_00023,data/raw/audio/clip_00023_severe_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2016-03-15,severe_bleach,2,20,0.05
+CLIP_00024,data/raw/audio/clip_00024_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2016-09-15,healthy,0,180,0.5
+CLIP_00025,data/raw/audio/clip_00025_mild_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00026,data/raw/audio/clip_00026_mild_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00027,data/raw/audio/clip_00027_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2018-03-15,healthy,0,180,0.5
+CLIP_00028,data/raw/audio/clip_00028_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2018-09-15,healthy,0,180,0.5
+CLIP_00029,data/raw/audio/clip_00029_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2019-03-15,healthy,0,180,0.5
+CLIP_00030,data/raw/audio/clip_00030_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2019-09-15,healthy,0,180,0.5
+CLIP_00031,data/raw/audio/clip_00031_severe_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2020-03-15,severe_bleach,2,20,0.05
+CLIP_00032,data/raw/audio/clip_00032_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2020-09-15,healthy,0,180,0.5
+CLIP_00033,data/raw/audio/clip_00033_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2021-03-15,healthy,0,180,0.5
+CLIP_00034,data/raw/audio/clip_00034_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2021-09-15,healthy,0,180,0.5
+CLIP_00035,data/raw/audio/clip_00035_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2022-03-15,healthy,0,180,0.5
+CLIP_00036,data/raw/audio/clip_00036_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2022-09-15,healthy,0,180,0.5
+CLIP_00037,data/raw/audio/clip_00037_mild_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00038,data/raw/audio/clip_00038_mild_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00039,data/raw/audio/clip_00039_severe_bleach.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2024-03-15,severe_bleach,2,20,0.05
+CLIP_00040,data/raw/audio/clip_00040_healthy.wav,great_barrier_reef_-17.00_148.00,Great Barrier Reef,-17.0,148.0,2024-09-15,healthy,0,180,0.5
+CLIP_00041,data/raw/audio/clip_00041_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2015-03-15,healthy,0,180,0.5
+CLIP_00042,data/raw/audio/clip_00042_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2015-09-15,healthy,0,180,0.5
+CLIP_00043,data/raw/audio/clip_00043_severe_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2016-03-15,severe_bleach,2,20,0.05
+CLIP_00044,data/raw/audio/clip_00044_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2016-09-15,healthy,0,180,0.5
+CLIP_00045,data/raw/audio/clip_00045_mild_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00046,data/raw/audio/clip_00046_mild_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00047,data/raw/audio/clip_00047_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2018-03-15,healthy,0,180,0.5
+CLIP_00048,data/raw/audio/clip_00048_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2018-09-15,healthy,0,180,0.5
+CLIP_00049,data/raw/audio/clip_00049_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2019-03-15,healthy,0,180,0.5
+CLIP_00050,data/raw/audio/clip_00050_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2019-09-15,healthy,0,180,0.5
+CLIP_00051,data/raw/audio/clip_00051_severe_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2020-03-15,severe_bleach,2,20,0.05
+CLIP_00052,data/raw/audio/clip_00052_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2020-09-15,healthy,0,180,0.5
+CLIP_00053,data/raw/audio/clip_00053_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2021-03-15,healthy,0,180,0.5
+CLIP_00054,data/raw/audio/clip_00054_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2021-09-15,healthy,0,180,0.5
+CLIP_00055,data/raw/audio/clip_00055_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2022-03-15,healthy,0,180,0.5
+CLIP_00056,data/raw/audio/clip_00056_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2022-09-15,healthy,0,180,0.5
+CLIP_00057,data/raw/audio/clip_00057_mild_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00058,data/raw/audio/clip_00058_mild_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00059,data/raw/audio/clip_00059_severe_bleach.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2024-03-15,severe_bleach,2,20,0.05
+CLIP_00060,data/raw/audio/clip_00060_healthy.wav,great_barrier_reef_-10.00_154.00,Great Barrier Reef,-10.0,154.0,2024-09-15,healthy,0,180,0.5
+CLIP_00061,data/raw/audio/clip_00061_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2015-03-15,healthy,0,180,0.5
+CLIP_00062,data/raw/audio/clip_00062_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2015-09-15,healthy,0,180,0.5
+CLIP_00063,data/raw/audio/clip_00063_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2016-03-15,healthy,0,180,0.5
+CLIP_00064,data/raw/audio/clip_00064_severe_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2016-09-15,severe_bleach,2,20,0.05
+CLIP_00065,data/raw/audio/clip_00065_mild_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00066,data/raw/audio/clip_00066_mild_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00067,data/raw/audio/clip_00067_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2018-03-15,healthy,0,180,0.5
+CLIP_00068,data/raw/audio/clip_00068_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2018-09-15,healthy,0,180,0.5
+CLIP_00069,data/raw/audio/clip_00069_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2019-03-15,healthy,0,180,0.5
+CLIP_00070,data/raw/audio/clip_00070_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2019-09-15,healthy,0,180,0.5
+CLIP_00071,data/raw/audio/clip_00071_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2020-03-15,healthy,0,180,0.5
+CLIP_00072,data/raw/audio/clip_00072_severe_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2020-09-15,severe_bleach,2,20,0.05
+CLIP_00073,data/raw/audio/clip_00073_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2021-03-15,healthy,0,180,0.5
+CLIP_00074,data/raw/audio/clip_00074_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2021-09-15,healthy,0,180,0.5
+CLIP_00075,data/raw/audio/clip_00075_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2022-03-15,healthy,0,180,0.5
+CLIP_00076,data/raw/audio/clip_00076_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2022-09-15,healthy,0,180,0.5
+CLIP_00077,data/raw/audio/clip_00077_mild_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00078,data/raw/audio/clip_00078_mild_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00079,data/raw/audio/clip_00079_healthy.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2024-03-15,healthy,0,180,0.5
+CLIP_00080,data/raw/audio/clip_00080_severe_bleach.wav,caribbean_10.00_-88.00,Caribbean,10.0,-88.0,2024-09-15,severe_bleach,2,20,0.05
+CLIP_00081,data/raw/audio/clip_00081_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2015-03-15,healthy,0,180,0.5
+CLIP_00082,data/raw/audio/clip_00082_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2015-09-15,healthy,0,180,0.5
+CLIP_00083,data/raw/audio/clip_00083_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2016-03-15,healthy,0,180,0.5
+CLIP_00084,data/raw/audio/clip_00084_severe_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2016-09-15,severe_bleach,2,20,0.05
+CLIP_00085,data/raw/audio/clip_00085_mild_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00086,data/raw/audio/clip_00086_mild_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00087,data/raw/audio/clip_00087_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2018-03-15,healthy,0,180,0.5
+CLIP_00088,data/raw/audio/clip_00088_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2018-09-15,healthy,0,180,0.5
+CLIP_00089,data/raw/audio/clip_00089_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2019-03-15,healthy,0,180,0.5
+CLIP_00090,data/raw/audio/clip_00090_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2019-09-15,healthy,0,180,0.5
+CLIP_00091,data/raw/audio/clip_00091_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2020-03-15,healthy,0,180,0.5
+CLIP_00092,data/raw/audio/clip_00092_severe_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2020-09-15,severe_bleach,2,20,0.05
+CLIP_00093,data/raw/audio/clip_00093_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2021-03-15,healthy,0,180,0.5
+CLIP_00094,data/raw/audio/clip_00094_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2021-09-15,healthy,0,180,0.5
+CLIP_00095,data/raw/audio/clip_00095_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2022-03-15,healthy,0,180,0.5
+CLIP_00096,data/raw/audio/clip_00096_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2022-09-15,healthy,0,180,0.5
+CLIP_00097,data/raw/audio/clip_00097_mild_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00098,data/raw/audio/clip_00098_mild_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00099,data/raw/audio/clip_00099_healthy.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2024-03-15,healthy,0,180,0.5
+CLIP_00100,data/raw/audio/clip_00100_severe_bleach.wav,caribbean_18.00_-74.00,Caribbean,18.0,-74.0,2024-09-15,severe_bleach,2,20,0.05
+CLIP_00101,data/raw/audio/clip_00101_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2015-03-15,healthy,0,180,0.5
+CLIP_00102,data/raw/audio/clip_00102_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2015-09-15,healthy,0,180,0.5
+CLIP_00103,data/raw/audio/clip_00103_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2016-03-15,healthy,0,180,0.5
+CLIP_00104,data/raw/audio/clip_00104_severe_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2016-09-15,severe_bleach,2,20,0.05
+CLIP_00105,data/raw/audio/clip_00105_mild_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00106,data/raw/audio/clip_00106_mild_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00107,data/raw/audio/clip_00107_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2018-03-15,healthy,0,180,0.5
+CLIP_00108,data/raw/audio/clip_00108_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2018-09-15,healthy,0,180,0.5
+CLIP_00109,data/raw/audio/clip_00109_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2019-03-15,healthy,0,180,0.5
+CLIP_00110,data/raw/audio/clip_00110_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2019-09-15,healthy,0,180,0.5
+CLIP_00111,data/raw/audio/clip_00111_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2020-03-15,healthy,0,180,0.5
+CLIP_00112,data/raw/audio/clip_00112_severe_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2020-09-15,severe_bleach,2,20,0.05
+CLIP_00113,data/raw/audio/clip_00113_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2021-03-15,healthy,0,180,0.5
+CLIP_00114,data/raw/audio/clip_00114_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2021-09-15,healthy,0,180,0.5
+CLIP_00115,data/raw/audio/clip_00115_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2022-03-15,healthy,0,180,0.5
+CLIP_00116,data/raw/audio/clip_00116_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2022-09-15,healthy,0,180,0.5
+CLIP_00117,data/raw/audio/clip_00117_mild_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00118,data/raw/audio/clip_00118_mild_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00119,data/raw/audio/clip_00119_healthy.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2024-03-15,healthy,0,180,0.5
+CLIP_00120,data/raw/audio/clip_00120_severe_bleach.wav,caribbean_26.00_-60.00,Caribbean,26.0,-60.0,2024-09-15,severe_bleach,2,20,0.05
+CLIP_00121,data/raw/audio/clip_00121_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2015-03-15,healthy,0,180,0.5
+CLIP_00122,data/raw/audio/clip_00122_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2015-09-15,healthy,0,180,0.5
+CLIP_00123,data/raw/audio/clip_00123_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2016-03-15,healthy,0,180,0.5
+CLIP_00124,data/raw/audio/clip_00124_severe_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2016-09-15,severe_bleach,2,20,0.05
+CLIP_00125,data/raw/audio/clip_00125_mild_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00126,data/raw/audio/clip_00126_mild_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00127,data/raw/audio/clip_00127_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2018-03-15,healthy,0,180,0.5
+CLIP_00128,data/raw/audio/clip_00128_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2018-09-15,healthy,0,180,0.5
+CLIP_00129,data/raw/audio/clip_00129_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2019-03-15,healthy,0,180,0.5
+CLIP_00130,data/raw/audio/clip_00130_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2019-09-15,healthy,0,180,0.5
+CLIP_00131,data/raw/audio/clip_00131_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2020-03-15,healthy,0,180,0.5
+CLIP_00132,data/raw/audio/clip_00132_severe_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2020-09-15,severe_bleach,2,20,0.05
+CLIP_00133,data/raw/audio/clip_00133_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2021-03-15,healthy,0,180,0.5
+CLIP_00134,data/raw/audio/clip_00134_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2021-09-15,healthy,0,180,0.5
+CLIP_00135,data/raw/audio/clip_00135_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2022-03-15,healthy,0,180,0.5
+CLIP_00136,data/raw/audio/clip_00136_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2022-09-15,healthy,0,180,0.5
+CLIP_00137,data/raw/audio/clip_00137_mild_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00138,data/raw/audio/clip_00138_mild_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00139,data/raw/audio/clip_00139_healthy.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2024-03-15,healthy,0,180,0.5
+CLIP_00140,data/raw/audio/clip_00140_severe_bleach.wav,coral_triangle_-10.00_115.00,Coral Triangle,-10.0,115.0,2024-09-15,severe_bleach,2,20,0.05
+CLIP_00141,data/raw/audio/clip_00141_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2015-03-15,healthy,0,180,0.5
+CLIP_00142,data/raw/audio/clip_00142_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2015-09-15,healthy,0,180,0.5
+CLIP_00143,data/raw/audio/clip_00143_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2016-03-15,healthy,0,180,0.5
+CLIP_00144,data/raw/audio/clip_00144_severe_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2016-09-15,severe_bleach,2,20,0.05
+CLIP_00145,data/raw/audio/clip_00145_mild_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00146,data/raw/audio/clip_00146_mild_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00147,data/raw/audio/clip_00147_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2018-03-15,healthy,0,180,0.5
+CLIP_00148,data/raw/audio/clip_00148_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2018-09-15,healthy,0,180,0.5
+CLIP_00149,data/raw/audio/clip_00149_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2019-03-15,healthy,0,180,0.5
+CLIP_00150,data/raw/audio/clip_00150_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2019-09-15,healthy,0,180,0.5
+CLIP_00151,data/raw/audio/clip_00151_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2020-03-15,healthy,0,180,0.5
+CLIP_00152,data/raw/audio/clip_00152_severe_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2020-09-15,severe_bleach,2,20,0.05
+CLIP_00153,data/raw/audio/clip_00153_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2021-03-15,healthy,0,180,0.5
+CLIP_00154,data/raw/audio/clip_00154_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2021-09-15,healthy,0,180,0.5
+CLIP_00155,data/raw/audio/clip_00155_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2022-03-15,healthy,0,180,0.5
+CLIP_00156,data/raw/audio/clip_00156_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2022-09-15,healthy,0,180,0.5
+CLIP_00157,data/raw/audio/clip_00157_mild_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00158,data/raw/audio/clip_00158_mild_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00159,data/raw/audio/clip_00159_healthy.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2024-03-15,healthy,0,180,0.5
+CLIP_00160,data/raw/audio/clip_00160_severe_bleach.wav,coral_triangle_0.00_125.00,Coral Triangle,0.0,125.0,2024-09-15,severe_bleach,2,20,0.05
+CLIP_00161,data/raw/audio/clip_00161_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2015-03-15,healthy,0,180,0.5
+CLIP_00162,data/raw/audio/clip_00162_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2015-09-15,healthy,0,180,0.5
+CLIP_00163,data/raw/audio/clip_00163_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2016-03-15,healthy,0,180,0.5
+CLIP_00164,data/raw/audio/clip_00164_severe_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2016-09-15,severe_bleach,2,20,0.05
+CLIP_00165,data/raw/audio/clip_00165_mild_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2017-03-15,mild_bleach,1,70,0.2
+CLIP_00166,data/raw/audio/clip_00166_mild_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2017-09-15,mild_bleach,1,70,0.2
+CLIP_00167,data/raw/audio/clip_00167_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2018-03-15,healthy,0,180,0.5
+CLIP_00168,data/raw/audio/clip_00168_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2018-09-15,healthy,0,180,0.5
+CLIP_00169,data/raw/audio/clip_00169_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2019-03-15,healthy,0,180,0.5
+CLIP_00170,data/raw/audio/clip_00170_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2019-09-15,healthy,0,180,0.5
+CLIP_00171,data/raw/audio/clip_00171_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2020-03-15,healthy,0,180,0.5
+CLIP_00172,data/raw/audio/clip_00172_severe_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2020-09-15,severe_bleach,2,20,0.05
+CLIP_00173,data/raw/audio/clip_00173_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2021-03-15,healthy,0,180,0.5
+CLIP_00174,data/raw/audio/clip_00174_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2021-09-15,healthy,0,180,0.5
+CLIP_00175,data/raw/audio/clip_00175_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2022-03-15,healthy,0,180,0.5
+CLIP_00176,data/raw/audio/clip_00176_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2022-09-15,healthy,0,180,0.5
+CLIP_00177,data/raw/audio/clip_00177_mild_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2023-03-15,mild_bleach,1,70,0.2
+CLIP_00178,data/raw/audio/clip_00178_mild_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2023-09-15,mild_bleach,1,70,0.2
+CLIP_00179,data/raw/audio/clip_00179_healthy.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2024-03-15,healthy,0,180,0.5
+CLIP_00180,data/raw/audio/clip_00180_severe_bleach.wav,coral_triangle_10.00_135.00,Coral Triangle,10.0,135.0,2024-09-15,severe_bleach,2,20,0.05

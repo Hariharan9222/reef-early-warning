@@ -1,0 +1,19 @@
+model_name,ablation_set,lead_time,macro_f1,pr_auc,roc_auc,severe_recall,brier,false_alarm_rate
+NOAA DHW Threshold Rule (Baseline),DHW rule,t+14d,0.605,0.9685,0.9828,0.8749,0.2087,0.0557
+Logistic Regression (SST only),SST,t+14d,0.8426,0.9942,0.9962,0.9553,0.0857,0.0535
+XGBoost (SST only),SST,t+14d,0.8583,0.9952,0.9967,0.9598,0.0658,0.0535
+XGBoost (SST + Citizen),SST + Citizen,t+14d,0.8535,0.9963,0.9976,0.9598,0.0652,0.0535
+XGBoost (SST + Acoustic),SST + Acoustic,t+14d,0.8799,0.9961,0.9975,0.9743,0.0559,0.0515
+XGBoost (Multimodal: All 3),SST + Citizen + Acoustic,t+14d,0.8767,0.9971,0.9983,0.9721,0.0558,0.0515
+LightGBM (Multimodal),SST + Citizen + Acoustic,t+14d,0.8784,0.997,0.9981,0.9709,0.0543,0.0515
+XGBoost (Optuna Tuned Multimodal),SST + Citizen + Acoustic,t+14d,0.8678,0.9968,0.9979,0.9698,0.0588,0.0515
+Multimodal Late-Fusion Neural Net (Focal Loss),SST + Citizen + Acoustic,t+14d,0.6943,0.991,0.9892,0.962,0.3057,0.0515
+NOAA DHW Threshold Rule (Baseline),DHW rule,t+28d,0.5452,0.878,0.9303,0.7559,0.3581,0.0557
+Logistic Regression (SST only),SST,t+28d,0.7629,0.9629,0.9775,0.832,0.1538,0.0535
+XGBoost (SST only),SST,t+28d,0.8318,0.9891,0.9942,0.9037,0.093,0.0535
+XGBoost (SST + Citizen),SST + Citizen,t+28d,0.8278,0.9889,0.9942,0.9048,0.0938,0.0535
+XGBoost (SST + Acoustic),SST + Acoustic,t+28d,0.8453,0.9937,0.9968,0.9227,0.076,0.0515
+XGBoost (Multimodal: All 3),SST + Citizen + Acoustic,t+28d,0.8494,0.9933,0.9967,0.9216,0.0768,0.0515
+LightGBM (Multimodal),SST + Citizen + Acoustic,t+28d,0.845,0.9927,0.9963,0.9183,0.0769,0.0515
+XGBoost (Optuna Tuned Multimodal),SST + Citizen + Acoustic,t+28d,0.8285,0.9925,0.9962,0.8981,0.0869,0.0515
+Multimodal Late-Fusion Neural Net (Focal Loss),SST + Citizen + Acoustic,t+28d,0.6914,0.9893,0.9927,0.8399,0.3374,0.0515

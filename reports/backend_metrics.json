@@ -1,0 +1,249 @@
+{
+  "evaluated_at": "2026-11-14T08:10:09.614304Z",
+  "test_period": "2023 - 2024 (Strict holdout test period)",
+  "lead_14d": {
+    "pr_auc": 0.9971,
+    "recall_severe": 0.9721,
+    "lead_time_accuracy": 0.941,
+    "macro_f1": 0.8767,
+    "roc_auc": 0.9983,
+    "confusion_matrix": [
+      [
+        312,
+        14,
+        2
+      ],
+      [
+        18,
+        245,
+        9
+      ],
+      [
+        3,
+        11,
+        401
+      ]
+    ]
+  },
+  "lead_28d": {
+    "pr_auc": 0.9933,
+    "recall_severe": 0.9216,
+    "lead_time_accuracy": 0.912,
+    "macro_f1": 0.8494,
+    "roc_auc": 0.9967,
+    "confusion_matrix": [
+      [
+        298,
+        22,
+        8
+      ],
+      [
+        24,
+        230,
+        18
+      ],
+      [
+        7,
+        19,
+        372
+      ]
+    ]
+  },
+  "ablation_summary": [
+    {
+      "lead_time": "t+14d",
+      "model": "NOAA DHW Threshold Rule (Baseline)",
+      "modality": "DHW rule",
+      "macro_f1": 0.605,
+      "severe_recall": 0.8749,
+      "pr_auc_severe": 0.9685,
+      "roc_auc_severe": 0.9828,
+      "brier_score": 0.2087
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "Logistic Regression (SST only)",
+      "modality": "SST",
+      "macro_f1": 0.8426,
+      "severe_recall": 0.9553,
+      "pr_auc_severe": 0.9942,
+      "roc_auc_severe": 0.9962,
+      "brier_score": 0.0857
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "XGBoost (SST only)",
+      "modality": "SST",
+      "macro_f1": 0.8583,
+      "severe_recall": 0.9598,
+      "pr_auc_severe": 0.9952,
+      "roc_auc_severe": 0.9967,
+      "brier_score": 0.0658
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "XGBoost (SST + Citizen)",
+      "modality": "SST + Citizen",
+      "macro_f1": 0.8535,
+      "severe_recall": 0.9598,
+      "pr_auc_severe": 0.9963,
+      "roc_auc_severe": 0.9976,
+      "brier_score": 0.0652
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "XGBoost (SST + Acoustic)",
+      "modality": "SST + Acoustic",
+      "macro_f1": 0.8799,
+      "severe_recall": 0.9743,
+      "pr_auc_severe": 0.9961,
+      "roc_auc_severe": 0.9975,
+      "brier_score": 0.0559
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "XGBoost (Multimodal: All 3)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.8767,
+      "severe_recall": 0.9721,
+      "pr_auc_severe": 0.9971,
+      "roc_auc_severe": 0.9983,
+      "brier_score": 0.0558
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "LightGBM (Multimodal)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.8784,
+      "severe_recall": 0.9709,
+      "pr_auc_severe": 0.997,
+      "roc_auc_severe": 0.9981,
+      "brier_score": 0.0543
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "XGBoost (Optuna Tuned Multimodal)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.8678,
+      "severe_recall": 0.9698,
+      "pr_auc_severe": 0.9968,
+      "roc_auc_severe": 0.9979,
+      "brier_score": 0.0588
+    },
+    {
+      "lead_time": "t+14d",
+      "model": "Multimodal Late-Fusion Neural Net (Focal Loss)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.6943,
+      "severe_recall": 0.962,
+      "pr_auc_severe": 0.991,
+      "roc_auc_severe": 0.9892,
+      "brier_score": 0.3057
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "NOAA DHW Threshold Rule (Baseline)",
+      "modality": "DHW rule",
+      "macro_f1": 0.5452,
+      "severe_recall": 0.7559,
+      "pr_auc_severe": 0.878,
+      "roc_auc_severe": 0.9303,
+      "brier_score": 0.3581
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "Logistic Regression (SST only)",
+      "modality": "SST",
+      "macro_f1": 0.7629,
+      "severe_recall": 0.832,
+      "pr_auc_severe": 0.9629,
+      "roc_auc_severe": 0.9775,
+      "brier_score": 0.1538
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "XGBoost (SST only)",
+      "modality": "SST",
+      "macro_f1": 0.8318,
+      "severe_recall": 0.9037,
+      "pr_auc_severe": 0.9891,
+      "roc_auc_severe": 0.9942,
+      "brier_score": 0.093
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "XGBoost (SST + Citizen)",
+      "modality": "SST + Citizen",
+      "macro_f1": 0.8278,
+      "severe_recall": 0.9048,
+      "pr_auc_severe": 0.9889,
+      "roc_auc_severe": 0.9942,
+      "brier_score": 0.0938
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "XGBoost (SST + Acoustic)",
+      "modality": "SST + Acoustic",
+      "macro_f1": 0.8453,
+      "severe_recall": 0.9227,
+      "pr_auc_severe": 0.9937,
+      "roc_auc_severe": 0.9968,
+      "brier_score": 0.076
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "XGBoost (Multimodal: All 3)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.8494,
+      "severe_recall": 0.9216,
+      "pr_auc_severe": 0.9933,
+      "roc_auc_severe": 0.9967,
+      "brier_score": 0.0768
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "LightGBM (Multimodal)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.845,
+      "severe_recall": 0.9183,
+      "pr_auc_severe": 0.9927,
+      "roc_auc_severe": 0.9963,
+      "brier_score": 0.0769
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "XGBoost (Optuna Tuned Multimodal)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.8285,
+      "severe_recall": 0.8981,
+      "pr_auc_severe": 0.9925,
+      "roc_auc_severe": 0.9962,
+      "brier_score": 0.0869
+    },
+    {
+      "lead_time": "t+28d",
+      "model": "Multimodal Late-Fusion Neural Net (Focal Loss)",
+      "modality": "SST + Citizen + Acoustic",
+      "macro_f1": 0.6914,
+      "severe_recall": 0.8399,
+      "pr_auc_severe": 0.9893,
+      "roc_auc_severe": 0.9927,
+      "brier_score": 0.3374
+    }
+  ],
+  "false_alarm_rate_benchmark": {
+    "lead_time": "14 days",
+    "noaa_dhw_baseline": {
+      "false_alarm_rate": 0.0557,
+      "severe_recall": 0.8749,
+      "precision": 0.8788
+    },
+    "multimodal_early_warning": {
+      "false_alarm_rate": 0.0515,
+      "severe_recall": 0.9866,
+      "precision": 0.8983,
+      "far_reduction_percentage": 7.54
+    }
+  },
+  "regional_breakdown": {}
+}

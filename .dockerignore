@@ -1,0 +1,12 @@
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.venv
+.cache
+.git
+.gitignore
+.env
+.ipynb_checkpoints
+data/raw/audio/*.wav
+

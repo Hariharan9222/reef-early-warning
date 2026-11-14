@@ -1,0 +1,61 @@
+version: '3.8'
+
+services:
+  coralguard-dashboard:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: coralguard_dashboard
+    ports:
+      - "8501:8501"
+    environment:
+      - MPLCONFIGDIR=/app/.cache/matplotlib
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    restart: unless-stopped
+
+  coralguard-api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: coralguard_api
+    command: python -m src.server --port 8000
+    ports:
+      - "8000:8000"
+    environment:
+      - MPLCONFIGDIR=/app/.cache/matplotlib
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    restart: unless-stopped
+
+  coralguard-monitor:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: coralguard_monitor
+    command: python -m src.monitor --interval-sec 3600
+    environment:
+      - MPLCONFIGDIR=/app/.cache/matplotlib
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    restart: unless-stopped
+
+  coralguard-pipeline:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: coralguard_pipeline
+    command: python -m src.run_all
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./reports:/app/reports
+    profiles:
+      - pipeline
+

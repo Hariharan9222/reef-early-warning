@@ -1,0 +1,4 @@
+region,samples,macro_f1,severe_recall,overall_accuracy
+Caribbean,945,0.8793,0.983,0.963
+Coral Triangle,945,0.8809,0.9897,0.9661
+Great Barrier Reef,945,0.8326,0.9385,0.9587

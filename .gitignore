@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Data and Models
+data/raw/audio/*.wav
+*.pt
+*.joblib
+*.parquet
+*.db
+*.sqlite3
+
+# Environment and Secrets
+.env
+.env.local
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# Cache
+.cache/
+.pytest_cache/
+
+# OS Specific
+.DS_Store
+Thumbs.db
+
