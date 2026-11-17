@@ -1,5 +1,5 @@
 {
-  "evaluated_at": "2026-11-14T08:10:09.614304Z",
+  "evaluated_at": "2026-11-14T08:33:25.165809Z",
   "test_period": "2023 - 2024 (Strict holdout test period)",
   "lead_14d": {
     "pr_auc": 0.9971,
