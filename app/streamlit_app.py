@@ -35,23 +35,136 @@ st.set_page_config(
 # Custom Styling
 st.markdown("""
 <style>
+    :root {
+        --navy: #062c3d;
+        --teal: #087f8c;
+        --cyan: #33b4c5;
+        --pale: #effaf8;
+        --border: #dbe9e7;
+    }
+    [data-testid="stAppViewContainer"] {
+        background: linear-gradient(135deg, #f7fbfa 0%, #edf7f5 100%);
+    }
+    [data-testid="stHeader"] { background: transparent; }
+    [data-testid="stSidebar"] {
+        background: linear-gradient(180deg, #062c3d 0%, #0a4555 100%);
+        border-right: 1px solid rgba(255,255,255,0.08);
+    }
+    [data-testid="stSidebar"] * { color: #ecfdf9; }
+    [data-testid="stSidebar"] [data-baseweb="radio"] label {
+        background: rgba(255,255,255,0.06);
+        border: 1px solid rgba(255,255,255,0.08);
+        border-radius: 10px;
+        padding: 8px 10px;
+        margin-bottom: 6px;
+    }
+    [data-testid="stMetric"] {
+        background: white;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 14px;
+        box-shadow: 0 8px 24px rgba(6,44,61,0.07);
+    }
     .main-header {
-        font-size: 2.2rem;
-        font-weight: 700;
-        color: #0E7490;
-        margin-bottom: 0.2rem;
+        font-size: 2.15rem;
+        font-weight: 760;
+        color: var(--navy);
+        margin-bottom: 0.15rem;
+        letter-spacing: -0.02em;
     }
     .sub-header {
-        font-size: 1.05rem;
-        color: #475569;
-        margin-bottom: 1.5rem;
+        font-size: 1rem;
+        color: #55716f;
+        margin-bottom: 1.25rem;
+    }
+    .stTabs [data-baseweb="tab-list"] {
+        gap: 8px;
+        background: white;
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 6px;
+    }
+    .stTabs [data-baseweb="tab"] {
+        border-radius: 9px;
+        color: #55716f;
+    }
+    .stTabs [aria-selected="true"] {
+        background: var(--pale);
+        color: var(--teal);
+        font-weight: 700;
+    }
+    .login-shell {
+        max-width: 980px;
+        margin: 2.5rem auto;
+        background: white;
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        box-shadow: 0 24px 70px rgba(6,44,61,0.12);
+        overflow: hidden;
+    }
+    .login-brand {
+        background: linear-gradient(135deg, #062c3d 0%, #087f8c 100%);
+        min-height: 510px;
+        padding: 48px;
+        color: white;
+        position: relative;
+        isolation: isolate;
+        overflow: hidden;
+    }
+    .login-brand::before {
+        content: "";
+        position: absolute;
+        inset: 0;
+        z-index: -2;
+        background:
+            linear-gradient(135deg, rgba(6,44,61,0.94) 8%, rgba(8,127,140,0.72) 100%),
+            url("https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=1200&q=85");
+        background-size: cover;
+        background-position: center;
+    }
+    .login-brand::after {
+        content: "";
+        position: absolute;
+        width: 280px;
+        height: 280px;
+        right: -100px;
+        bottom: -120px;
+        border: 44px solid rgba(255,255,255,0.08);
+        border-radius: 50%;
+        z-index: -1;
+    }
+    .login-brand h1 { color: white; font-size: 3rem; margin-top: 40px; }
+    .login-brand p { color: #d8f3ef; line-height: 1.7; }
+    .login-feature {
+        display: flex;
+        align-items: flex-start;
+        gap: 12px;
+        padding: 10px 12px;
+        margin-bottom: 8px;
+        border: 1px solid rgba(255,255,255,0.13);
+        border-radius: 12px;
+        background: rgba(255,255,255,0.08);
+        backdrop-filter: blur(8px);
+    }
+    .login-feature strong { color: white; display: block; }
+    .login-feature span { color: #d8f3ef; font-size: 0.82rem; }
+    .login-form { padding: 48px 42px; }
+    .login-form h2 { color: var(--navy); }
+    .role-chip {
+        display: inline-block;
+        background: #dff5ef;
+        color: #087f8c;
+        border-radius: 999px;
+        padding: 6px 12px;
+        font-size: 0.82rem;
+        font-weight: 700;
     }
     .metric-card {
-        background-color: #F8FAFC;
-        border-radius: 8px;
+        background: white;
+        border-radius: 14px;
         padding: 15px;
-        border-left: 5px solid #0E7490;
-        box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        border: 1px solid var(--border);
+        box-shadow: 0 8px 24px rgba(6,44,61,0.07);
     }
     .alert-banner-watch { background-color: #FEF08A; padding: 10px; border-radius: 6px; color: #854D0E; font-weight: 600; }
     .alert-banner-warning { background-color: #FED7AA; padding: 10px; border-radius: 6px; color: #9A3412; font-weight: 600; }
@@ -59,6 +172,82 @@ st.markdown("""
     .alert-banner-normal { background-color: #DCFCE7; padding: 10px; border-radius: 6px; color: #166534; font-weight: 600; }
 </style>
 """, unsafe_allow_html=True)
+
+def render_login():
+    if "authenticated" not in st.session_state:
+        st.session_state.authenticated = False
+    if st.session_state.authenticated:
+        return
+
+    st.markdown('<div class="login-shell">', unsafe_allow_html=True)
+    left, right = st.columns([1.05, 0.95], gap="large")
+    with left:
+        st.markdown("""
+        <div class="login-brand">
+            <div style="font-size:2rem;">🪸 CoralGuard</div>
+            <h1>See reef stress before it becomes a crisis.</h1>
+            <p>A connected early-warning workspace combining thermal satellite observations, underwater soundscapes, and trusted diver reports.</p>
+            <div style="margin-top:24px;">
+                <div class="login-feature">
+                    <div style="font-size:1.35rem;">🛰️</div>
+                    <div><strong>Thermal intelligence</strong><span>Track SST, anomalies and degree heating weeks.</span></div>
+                </div>
+                <div class="login-feature">
+                    <div style="font-size:1.35rem;">🎧</div>
+                    <div><strong>Acoustic reef health</strong><span>Detect biophony loss and underwater habitat stress.</span></div>
+                </div>
+                <div class="login-feature">
+                    <div style="font-size:1.35rem;">🗺️</div>
+                    <div><strong>14-day &amp; 28-day forecasts</strong><span>Prioritize reef sites and prepare response actions.</span></div>
+                </div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+    with right:
+        st.markdown('<div class="login-form">', unsafe_allow_html=True)
+        st.markdown("## Welcome back")
+        st.markdown("Sign in to access the CoralGuard monitoring workspace.")
+        st.markdown("""
+        <div style="display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:14px 0 20px;">
+            <div style="text-align:center;border:1px solid #dbe9e7;border-radius:10px;padding:10px 4px;">
+                <div style="font-size:1.15rem;color:#087f8c;font-weight:800;">15</div>
+                <div style="font-size:0.68rem;color:#6b7f7d;">Reef sites</div>
+            </div>
+            <div style="text-align:center;border:1px solid #dbe9e7;border-radius:10px;padding:10px 4px;">
+                <div style="font-size:1.15rem;color:#087f8c;font-weight:800;">3</div>
+                <div style="font-size:0.68rem;color:#6b7f7d;">Data sources</div>
+            </div>
+            <div style="text-align:center;border:1px solid #dbe9e7;border-radius:10px;padding:10px 4px;">
+                <div style="font-size:1.15rem;color:#087f8c;font-weight:800;">24/7</div>
+                <div style="font-size:0.68rem;color:#6b7f7d;">Monitoring</div>
+            </div>
+        </div>
+        """, unsafe_allow_html=True)
+        role = st.radio("Account role", ["User", "Admin"], horizontal=True)
+        username = st.text_input("Username", placeholder="Enter your username")
+        password = st.text_input("Password", type="password", placeholder="Enter your password")
+
+        admin_password = os.getenv("CORALGUARD_ADMIN_PASSWORD", "admin123")
+        user_password = os.getenv("CORALGUARD_USER_PASSWORD", "user123")
+        valid_username = "admin" if role == "Admin" else "user"
+        valid_password = admin_password if role == "Admin" else user_password
+
+        if st.button("Sign in", type="primary", use_container_width=True):
+            if username.strip().lower() == valid_username and password == valid_password:
+                st.session_state.authenticated = True
+                st.session_state.role = role
+                st.session_state.username = username.strip()
+                st.rerun()
+            else:
+                st.error("The username or password is incorrect.")
+
+        st.caption("Demo access")
+        st.code("Admin: admin / admin123\nUser:  user / user123")
+        st.markdown("</div>", unsafe_allow_html=True)
+    st.markdown("</div>", unsafe_allow_html=True)
+    st.stop()
+
+render_login()
 
 @st.cache_data
 def load_datasets():
@@ -86,6 +275,15 @@ pack_t14, pack_t28 = load_models()
 st.sidebar.image("https://images.unsplash.com/photo-1546026423-cc4642628d2b?auto=format&fit=crop&w=400&q=80", use_container_width=True)
 st.sidebar.title("🪸 CoralGuard System")
 st.sidebar.caption("Multimodal Early Warning (2-8 Weeks Ahead)")
+st.sidebar.markdown(
+    f'<span class="role-chip">{"Administrator" if st.session_state.role == "Admin" else "Research User"}</span>',
+    unsafe_allow_html=True
+)
+if st.sidebar.button("Sign out", use_container_width=True):
+    st.session_state.authenticated = False
+    st.session_state.pop("role", None)
+    st.session_state.pop("username", None)
+    st.rerun()
 
 # Check FastAPI Backend Health
 backend_status = api_client.check_health()
